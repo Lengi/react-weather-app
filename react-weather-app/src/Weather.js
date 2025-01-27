@@ -43,7 +43,7 @@ export default function Weather(props) {
         <p>Humidity: {weather.temperature.humidity} %</p>
         <p>Description: {weather.condition.description}</p>
         <p>Wind: {weather.wind.speed}km/h</p>
-        <img src="weather.condition.icon_url" />
+        <img alt="icon" src="weather.condition.icon_url" />
       </div>
     );
   } else {
